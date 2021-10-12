@@ -28,6 +28,9 @@ services:
       - 'moodledata_data:/bitnami/moodledata'
     depends_on:
       - mariadb
+    PHP configs:
+      - PHP_MAX_EXECUTION_TIME=600
+      - PHP_MAX_INPUT_VARS=6000
 volumes:
   mariadb_data:
     driver: local

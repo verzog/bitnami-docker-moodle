@@ -1,10 +1,10 @@
 {
     "apache": {
         "arch": "amd64",
-        "digest": "71010c86332e4ad0993bc875d103bb916184f1f42884a9098db65c969553c34a",
+        "digest": "1b827e70d1633dc9c3035458ccf893dbb0d503b5dbfa01109eecb356e1e1a0db",
         "distro": "debian-10",
         "type": "NAMI",
-        "version": "2.4.51-0"
+        "version": "2.4.51-7"
     },
     "gosu": {
         "arch": "amd64",
@@ -15,37 +15,37 @@
     },
     "libphp": {
         "arch": "amd64",
-        "digest": "534aa93850b658381e8ef85dd9cdb64c097eb7938d733640ac92f65263cb5dec",
+        "digest": "e30f91e2e21a90772e04b795c2db35d1f0f5d934f4fcb2a1d872e50c32fc8bff",
         "distro": "debian-10",
         "type": "NAMI",
-        "version": "7.4.24-3"
+        "version": "7.4.26-0"
     },
     "moodle": {
         "arch": "amd64",
-        "digest": "62f3c275e17f461c79029489d903a1591917a8d09e808a8b2e822954afdb89a9",
+        "digest": "d517741f777db6e0f0ba206dc25bd36c481ead4dccb20a7bec59d9a3c6205544",
         "distro": "debian-10",
         "type": "NAMI",
-        "version": "3.11.3-0"
+        "version": "3.11.4-0"
     },
     "mysql-client": {
         "arch": "amd64",
-        "digest": "15b394a022ca1d0b4b89bfee0487ee13f9e8cc697d0ca09ce62a0a3732536236",
+        "digest": "4a211faa9436c9747dfc4374cb9e8a7f9b0065dfc58dd4784cef0f5029c2e65e",
         "distro": "debian-10",
         "type": "NAMI",
-        "version": "10.3.31-2"
+        "version": "10.3.32-0"
     },
     "php": {
         "arch": "amd64",
-        "digest": "858b9a169923774e26117ef8a04c2aa0974365884847428beb2135ed466a5a30",
+        "digest": "c8d79adeecf3f36ff8df387c105398c9f45eb344990f5d1980d3919d556387ae",
         "distro": "debian-10",
         "type": "NAMI",
-        "version": "7.4.24-3"
+        "version": "7.4.26-3"
     },
     "render-template": {
         "arch": "amd64",
-        "digest": "8179ad1371c9a7d897fe3b1bf53bbe763f94edafef19acad2498dd48b3674efe",
+        "digest": "cddf51b3cb59d65d5d30e3fe37e99d8d53375ad88f0cc474019a52e6d8b4fc58",
         "distro": "debian-10",
         "type": "NAMI",
-        "version": "1.0.0-3"
+        "version": "1.0.1-3"
     }
 }

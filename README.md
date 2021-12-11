@@ -1,12 +1,12 @@
-# Bitnami Docker Image for Moodle&trade; LMS
+# Bitnami LMS powered by Moodle&trade; LMS
 
-## What is Moodle&trade;?
+## What is Bitnami LMS powered by Moodle&trade; LMS?
 
-Disclaimer: The respective trademarks mentioned in the offering are owned by the respective companies. We do not provide commercial license of any of these products. This listing has an open source license. Moodle&trade; LMS is run and maintained by Moodle HQ, that is a completely and separate project from Bitnami.
+> Moodle&trade; LMS is an open source online Learning Management System widely used at universities, schools, and corporations. It is modular and highly adaptable to any type of online learning.
 
->Moodle(TM) is a very popular open source learning management solution (LMS) for the delivery of elearning courses and programs. It’s used not only by universities, but also by hundreds of corporations around the world who provide eLearning education for their employees. Moodle(TM) features a simple interface, drag-and-drop features, role-based permissions, deep reporting, many language translations, a well-documented API and more. With some of the biggest universities and organizations already using it, Moodle(TM) is ready to meet the needs of just about any size organization.
+[Overview of Bitnami LMS powered by Moodle&trade; LMS](http://moodle.org/)
 
-https://moodle.org/
+Disclaimer: The respective trademarks mentioned in the offering are owned by the respective companies. We do not provide commercial license of any of these products. This listing has an open source license. Moodle(TM) LMS is run and maintained by Moodle HQ, that is a completely and separate project from Bitnami.
 
 ## TL;DR
 
@@ -39,7 +39,7 @@ Bitnami containers can be used with [Kubeapps](https://kubeapps.com/) for deploy
 Learn more about the Bitnami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/tutorials/understand-rolling-tags-containers/).
 
 
-* [`3`, `3-debian-10`, `3.11.3`, `3.11.3-debian-10-r29`, `latest` (3/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-moodle/blob/3.11.3-debian-10-r29/3/debian-10/Dockerfile)
+* [`3`, `3-debian-10`, `3.11.4`, `3.11.4-debian-10-r28`, `latest` (3/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-moodle/blob/3.11.4-debian-10-r28/3/debian-10/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/moodle GitHub repo](https://github.com/bitnami/bitnami-docker-moodle).
 
@@ -115,7 +115,7 @@ $ docker run -d --name moodle \
   bitnami/moodle:latest
 ```
 
-Access your application at *http://your-ip/*
+Access your application at `http://your-ip/`
 
 ## Persisting your application
 
@@ -579,13 +579,21 @@ We'd love for you to contribute to this container. You can request new features 
 
 ## Issues
 
-If you encountered a problem running this container, you can file an [issue](https://github.com/bitnami/bitnami-docker-moodle/issues). For us to provide better support, be sure to include the following information in your issue:
+If you encountered a problem running this container, you can file an [issue](https://github.com/bitnami/bitnami-docker-moodle/issues/new). Be sure to include the following information in your issue:
 
 - Host OS and version
 - Docker version (`docker version`)
 - Output of `docker info`
 - Version of this container
 - The command you used to run the container, and any relevant output you saw (masking any sensitive information)
+
+### Community supported solution
+
+Please, note this asset is a community-supported solution. This means that the Bitnami team is not actively working on new features/improvements nor providing support through GitHub Issues. Any new issue will stay open for 20 days to allow the community to contribute, after 15 days without activity the issue will be marked as stale being closed after 5 days.
+
+The Bitnami team will review any PR that is created, feel free to create a PR if you find any issue or want to implement a new feature.
+
+New versions and releases cadence are not going to be affected. Once a new version is released in the upstream project, the Bitnami container image will be updated to use the latest version, supporting the different branches supported by the upstream project as usual.
 
 ## License
 

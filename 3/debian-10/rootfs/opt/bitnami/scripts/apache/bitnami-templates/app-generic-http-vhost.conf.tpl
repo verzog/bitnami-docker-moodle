@@ -1,5 +1,6 @@
+{{http_listen_configuration}}
 {{before_vhost_configuration}}
 <VirtualHost {{http_listen_addresses}}>
-  ServerAlias *
+  {{server_name_configuration}}
   {{additional_configuration}}
 </VirtualHost>
